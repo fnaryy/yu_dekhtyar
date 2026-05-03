@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>ЮРИЙ ДЕХТЯР — Influence-агентство</title>
+  <meta name="description" content="Influence-агентство Юрия Дехтяра. Подбираем блогеров, продумываем механику и доводим до измеримого результата.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@300;400;500;600;700;800&family=Oswald:wght@600;700&display=swap&subset=cyrillic,cyrillic-ext" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <!-- ============ HEADER ============ -->
+  <header class="header">
+    <div class="header__inner">
+      <a href="#top" class="header__brand">
+        <span class="header__brand-name">Ю.ДЕХТЯР</span>
+        <span class="header__brand-sub">[INFLUENCE / 2020+]</span>
+      </a>
+      <nav class="header__nav" aria-label="Основная навигация">
+        <a href="#about">[О НАС]</a>
+        <a href="#services">[УСЛУГИ]</a>
+        <a href="#cases">[КЕЙСЫ]</a>
+        <a href="#contact">[КОНТАКТЫ]</a>
+      </nav>
+      <a href="#contact" class="header__cta">НАЧАТЬ ПРОЕКТ <span aria-hidden="true">→</span></a>
+      <button class="header__burger" aria-label="Меню" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <!-- ============ 01 / HERO ============ -->
+    <section class="hero" id="about">
+      <div class="hero__top">
+        <span class="bracket">[ПОРТФОЛИО ’26]</span>
+        <span class="bracket">[ПРОКРУТИ ВНИЗ ↓]</span>
+      </div>
+
+      <h1 class="hero__title">
+        ВКЛЮЧАЕМ<br>
+        БЛОГЕРОВ <span class="hero__arrow" aria-hidden="true">→</span><br>
+        В ВАШИ <span class="hero__title-accent">ПРОДАЖИ</span>
+      </h1>
+
+      <div class="hero__bottom">
+        <p class="hero__desc">
+          Influence-агентство <strong>Юрия Дехтяра</strong>.<br>
+          Подбираем авторов, продумываем механику<br>
+          и доводим до <em>измеримого результата</em>&nbsp;— не просто охватов.
+        </p>
+        <a href="#contact" class="btn btn--primary">НАЧАТЬ ПРОЕКТ <span aria-hidden="true">→</span></a>
+      </div>
+
+      <div class="hero__stats" role="list">
+        <div class="stat" role="listitem">
+          <span class="stat__num">200+</span>
+          <span class="stat__label">кампаний / реализовано</span>
+        </div>
+        <div class="stat" role="listitem">
+          <span class="stat__num">50М+</span>
+          <span class="stat__label">охватов / суммарно</span>
+        </div>
+        <div class="stat" role="listitem">
+          <span class="stat__num">90%</span>
+          <span class="stat__label">клиентов / возвращаются</span>
+        </div>
+        <div class="stat" role="listitem">
+          <span class="stat__num">с 2020</span>
+          <span class="stat__label">года / на рынке</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 02 / SERVICES (FLIP CARDS) ============ -->
+    <section class="services" id="services">
+      <header class="section-header">
+        <span class="bracket">[02 / ЧТО МЫ ДЕЛАЕМ]</span>
+        <h2 class="section-title">УСЛУГИ <span class="section-title__muted">— кликни карточку</span></h2>
+      </header>
+
+      <div class="flip-grid">
+        <!-- Card 1 -->
+        <article class="flip-card" tabindex="0" role="button" aria-pressed="false">
+          <div class="flip-card__inner">
+            <div class="flip-card__face flip-card__front">
+              <span class="flip-card__num">01</span>
+              <h3 class="flip-card__title">ОХВАТЫ</h3>
+              <span class="flip-card__hint">КЛИКНИ →</span>
+            </div>
+            <div class="flip-card__face flip-card__back">
+              <p>Подбираем авторов, чьи зрители&nbsp;— ваши покупатели. Не «по подписчикам», а по совпадению аудиторий, тону и контексту.</p>
+              <span class="flip-card__hint">← НАЗАД</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 2 -->
+        <article class="flip-card" tabindex="0" role="button" aria-pressed="false">
+          <div class="flip-card__inner">
+            <div class="flip-card__face flip-card__front">
+              <span class="flip-card__num">02</span>
+              <h3 class="flip-card__title">ПРОДАЖИ</h3>
+              <span class="flip-card__hint">КЛИКНИ →</span>
+            </div>
+            <div class="flip-card__face flip-card__back">
+              <p>UTM-метки, промокоды, постоплата за конверсии. Считаем CPA и ROMI, а не «лайки и комментарии».</p>
+              <span class="flip-card__hint">← НАЗАД</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 3 -->
+        <article class="flip-card" tabindex="0" role="button" aria-pressed="false">
+          <div class="flip-card__inner">
+            <div class="flip-card__face flip-card__front">
+              <span class="flip-card__num">03</span>
+              <h3 class="flip-card__title">БРЕНД</h3>
+              <span class="flip-card__hint">КЛИКНИ →</span>
+            </div>
+            <div class="flip-card__face flip-card__back">
+              <p>Точечно работаем с тоном автора, чтобы интеграция воспринималась как рекомендация друга, а не реклама.</p>
+              <span class="flip-card__hint">← НАЗАД</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 4 -->
+        <article class="flip-card" tabindex="0" role="button" aria-pressed="false">
+          <div class="flip-card__inner">
+            <div class="flip-card__face flip-card__front">
+              <span class="flip-card__num">04</span>
+              <h3 class="flip-card__title">ВИРАЛ</h3>
+              <span class="flip-card__hint">КЛИКНИ →</span>
+            </div>
+            <div class="flip-card__face flip-card__back">
+              <p>Создаём механики, которые имеют шанс залететь: челленджи, коллабы, серии, мемы. Без гарантий, но с инфраструктурой.</p>
+              <span class="flip-card__hint">← НАЗАД</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 5 -->
+        <article class="flip-card" tabindex="0" role="button" aria-pressed="false">
+          <div class="flip-card__inner">
+            <div class="flip-card__face flip-card__front">
+              <span class="flip-card__num">05</span>
+              <h3 class="flip-card__title">АНАЛИТИКА</h3>
+              <span class="flip-card__hint">КЛИКНИ →</span>
+            </div>
+            <div class="flip-card__face flip-card__back">
+              <p>Полный отчёт после кампании: охват, ER, CTR, CPA, удержание, продажи. Без воды&nbsp;— цифры и выводы.</p>
+              <span class="flip-card__hint">← НАЗАД</span>
+            </div>
+          </div>
+        </article>
+
+        <!-- Card 6 -->
+        <article class="flip-card" tabindex="0" role="button" aria-pressed="false">
+          <div class="flip-card__inner">
+            <div class="flip-card__face flip-card__front">
+              <span class="flip-card__num">06</span>
+              <h3 class="flip-card__title">СТРАТЕГИЯ</h3>
+              <span class="flip-card__hint">КЛИКНИ →</span>
+            </div>
+            <div class="flip-card__face flip-card__back">
+              <p>Не просто закупаем рекламу. Планируем серию касаний, площадки, форматы и сезон&nbsp;— под ваш продукт и цикл сделки.</p>
+              <span class="flip-card__hint">← НАЗАД</span>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ 03 / ACTIVE CASE ============ -->
+    <section class="case" id="case-detail" aria-live="polite">
+      <header class="section-header">
+        <span class="bracket">[03 / АКТИВНЫЙ КЕЙС]</span>
+        <h2 class="section-title">КЕЙС <span class="section-title__muted" id="case-counter">/ 01 / 06</span></h2>
+      </header>
+
+      <div class="case__layout">
+        <div class="case__main">
+          <div class="case__head">
+            <span class="case__brand" id="case-brand">NORDFIT</span>
+            <span class="case__category" id="case-category">/ Спортивная обувь · 2025</span>
+          </div>
+
+          <div class="case__row">
+            <span class="bracket case__row-label">[ С КАКИМ ВОПРОСОМ ПРИШЛИ ]</span>
+            <p class="case__row-text" id="case-problem">
+              Бренд кроссовок выходил на массовый рынок РФ. Узнаваемость — низкая, конкуренция — высокая, бюджет на ТВ — нет. Нужно было быстро занять место в голове аудитории 18–34.
+            </p>
+          </div>
+
+          <div class="case__row case__row--accordion">
+            <button class="case__accordion-toggle" aria-expanded="false">
+              <span class="bracket case__row-label">[ ЧТО МЫ СДЕЛАЛИ ]</span>
+              <span class="case__accordion-icon" aria-hidden="true">+</span>
+            </button>
+            <div class="case__accordion-content">
+              <p class="case__row-text" id="case-solution">
+                Запустили серию из 12 интеграций у бегового и lifestyle-комьюнити. Сделали ставку на микро- и mid-tier, а не на топов.
+              </p>
+              <div class="case__accordion-extra" id="case-solution-full">
+                <p>Разбили кампанию на три волны: сначала «бытовые» интеграции у микро-блогеров для нативного знакомства, затем хедлайнер-ролик у mid-инфлюенсера-марафонца с разбором технологий, в финале&nbsp;— UGC-челлендж с промокодом на 7 дней.</p>
+                <p>Каждому автору давали индивидуальный UTM и промокод. Креатив&nbsp;— только в виде брифа: автор писал текст сам, мы корректировали факты и тон. Это дало эффект «честной» рекомендации.</p>
+                <p>Параллельно подключили ремаркетинг по тёплой аудитории, которая взаимодействовала с роликами&nbsp;— добили её таргетом в VK Ads и Telegram Ads.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="case__grid">
+            <div class="case__cell">
+              <span class="bracket case__row-label">[ ПЛОЩАДКИ ]</span>
+              <ul class="case__list" id="case-platforms">
+                <li>YouTube</li>
+                <li>Telegram</li>
+                <li>Instagram</li>
+                <li>VK Видео</li>
+              </ul>
+            </div>
+            <div class="case__cell">
+              <span class="bracket case__row-label">[ ЦЕЛЕВАЯ АУДИТОРИЯ ]</span>
+              <ul class="case__list" id="case-audience">
+                <li>M / F · 18–34</li>
+                <li>РФ, СНГ</li>
+                <li>Спорт, ЗОЖ, бег</li>
+              </ul>
+            </div>
+          </div>
+
+          <div class="case__row">
+            <span class="bracket case__row-label">[ ЗАДЕЙСТВОВАНО АВТОРОВ ]</span>
+            <div class="case__authors" id="case-authors">
+              <span class="case__authors-total">12 АВТОРОВ</span>
+              <span class="case__authors-divider">/</span>
+              <span>8 микро</span>
+              <span class="case__authors-divider">·</span>
+              <span>3 миддл</span>
+              <span class="case__authors-divider">·</span>
+              <span>1 топ</span>
+            </div>
+          </div>
+        </div>
+
+        <aside class="case__side">
+          <div class="case__client">
+            <div class="case__client-photo" id="case-client-photo" aria-hidden="true">АМ</div>
+            <div class="case__client-info">
+              <span class="case__client-name" id="case-client-name">Алексей Морозов</span>
+              <span class="case__client-role" id="case-client-role">CMO · NORDFIT</span>
+            </div>
+          </div>
+
+          <blockquote class="case__quote" id="case-testimonial">
+            «За три месяца кампании выросли с 2&nbsp;000 заказов в месяц до 11&nbsp;000. Юра не просто закупил блогеров — он построил воронку, которую теперь повторяем сами.»
+          </blockquote>
+
+          <a href="#" class="case__video" id="case-video-link" target="_blank" rel="noopener">
+            <div class="case__video-thumb" id="case-video-thumb">
+              <span class="case__video-brand" id="case-video-brand">NORDFIT</span>
+              <span class="case__video-author" id="case-video-author">@runner_pro</span>
+              <span class="case__video-play" aria-hidden="true">
+                <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+              </span>
+            </div>
+            <div class="case__video-meta">
+              <span><span aria-hidden="true">👁</span> <span id="case-video-views">1.2M просмотров</span></span>
+              <span class="case__video-divider">·</span>
+              <span id="case-video-date">12.04.2026</span>
+              <span class="case__video-cta">смотреть →</span>
+            </div>
+          </a>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ============ 04 / ALL CASES GRID ============ -->
+    <section class="cases" id="cases">
+      <header class="section-header">
+        <span class="bracket">[04 / ВСЕ КЕЙСЫ]</span>
+        <h2 class="section-title">ПОРТФОЛИО <span class="section-title__muted">— выбери для подробностей</span></h2>
+      </header>
+
+      <div class="cases__grid" id="cases-grid">
+        <!-- Cards rendered by JS -->
+      </div>
+    </section>
+
+    <!-- ============ 05 / CONTACT ============ -->
+    <section class="contact" id="contact">
+      <div class="contact__layout">
+        <div class="contact__intro">
+          <span class="bracket">[05 / СВЯЗАТЬСЯ]</span>
+          <h2 class="contact__title">ЕСТЬ ИДЕЯ?<br>ОБСУДИМ.</h2>
+          <p class="contact__lead">
+            Оставьте контакты&nbsp;— ответим в течение рабочего дня. Расскажем, подходит ли нам ваш продукт, и предложим формат.
+          </p>
+          <div class="contact__direct">
+            <span class="bracket">[ИЛИ НАПРЯМУЮ]</span>
+            <a href="https://t.me/yu_dekhtyar" target="_blank" rel="noopener">→ Telegram</a>
+            <a href="mailto:hello@dekhtyar.ru">→ hello@dekhtyar.ru</a>
+          </div>
+        </div>
+
+        <form class="contact__form" id="contact-form" novalidate>
+          <div class="field">
+            <label for="f-name">ИМЯ <span aria-hidden="true">*</span></label>
+            <input id="f-name" name="name" type="text" required placeholder="Как к вам обращаться">
+          </div>
+          <div class="field">
+            <label for="f-company">КОМПАНИЯ <span aria-hidden="true">*</span></label>
+            <input id="f-company" name="company" type="text" required placeholder="Название бренда">
+          </div>
+          <div class="field">
+            <label for="f-contact">E-MAIL ИЛИ TELEGRAM <span aria-hidden="true">*</span></label>
+            <input id="f-contact" name="contact" type="text" required placeholder="hello@brand.com  /  @username">
+          </div>
+          <div class="field">
+            <label for="f-phone">ТЕЛЕФОН</label>
+            <input id="f-phone" name="phone" type="tel" placeholder="+7 (___) ___-__-__">
+          </div>
+          <div class="field field--full">
+            <label for="f-message">КРАТКО О ПРОЕКТЕ</label>
+            <textarea id="f-message" name="message" rows="3" placeholder="Продукт, бюджет, сроки, цели"></textarea>
+          </div>
+
+          <div class="contact__submit">
+            <p class="contact__note">
+              Нажимая кнопку, вы соглашаетесь с обработкой данных.<br>
+              Заявка приходит в&nbsp;CRM и Telegram-бот&nbsp;— ответим до конца дня.
+            </p>
+            <button class="btn btn--primary btn--large" type="submit">
+              ОТПРАВИТЬ <span aria-hidden="true">→</span>
+            </button>
+          </div>
+
+          <div class="form-result" id="form-result" hidden>
+            <span class="bracket">[✓ ЗАЯВКА ОТПРАВЛЕНА]</span>
+            <p>Спасибо! Мы получили заявку и свяжемся в ближайшее время.</p>
+          </div>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="footer__top">
+      <span class="footer__brand">ЮРИЙ ДЕХТЯР</span>
+      <span class="bracket">[INFLUENCE / 2020+]</span>
+    </div>
+    <div class="footer__grid">
+      <div class="footer__col">
+        <span class="bracket">[НАВИГАЦИЯ]</span>
+        <a href="#about">О нас</a>
+        <a href="#services">Услуги</a>
+        <a href="#cases">Кейсы</a>
+        <a href="#contact">Контакты</a>
+      </div>
+      <div class="footer__col">
+        <span class="bracket">[КОНТАКТЫ]</span>
+        <a href="https://t.me/yu_dekhtyar" target="_blank" rel="noopener">Telegram</a>
+        <a href="mailto:hello@dekhtyar.ru">hello@dekhtyar.ru</a>
+        <a href="tel:+79991234567">+7 (999) 123-45-67</a>
+      </div>
+      <div class="footer__col">
+        <span class="bracket">[СОЦСЕТИ]</span>
+        <a href="#">Instagram</a>
+        <a href="#">YouTube</a>
+        <a href="#">VK</a>
+      </div>
+    </div>
+    <div class="footer__bottom">
+      <span>© 2020–2026 · ЮРИЙ ДЕХТЯР</span>
+      <span>Москва · работаем по всему миру</span>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
